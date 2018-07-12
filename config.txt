@@ -1,0 +1,9 @@
+NH4(mg/L) 391
+NO3(mg/L) 393
+DO(per) 395
+DO(mg/L) 397
+fDOM(RFU) 399
+Turbidity(NTU) 405
+Temperature 409
+Conductivity(uS/cm) 413
+Specific_Conductance(uS/cm) 415
