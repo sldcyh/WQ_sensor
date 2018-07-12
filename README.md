@@ -28,7 +28,7 @@ install libcurl-dev if needed.
 
 # Compile 
 compile the C script using gcc and pkg-config.
-```gcc waterquality.c -o waterquality `pkg-config --libs --cflags libmodbus```
+```gcc waterquality.c -o waterquality `pkg-config --libs --cflags libmodbus``
 
 # Run
 You can directly run the script or use nohup or tmux to run it so it will not be terminated if you log off from SSH.
