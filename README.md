@@ -35,7 +35,7 @@ compile the C script using gcc and pkg-config.
 # Run
 You can directly run the script or use nohup or tmux to run it so it will not be terminated if you log off from SSH.
 `./waterquality`  or
-`nohup ./waterquality`
+`nohup ./waterquality &`
 You may need root to run
 
 
