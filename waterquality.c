@@ -1,7 +1,7 @@
 //updated on 3rd July 2018
 // Script now modified to get data from YSI EXO2 through Modbus SOA
 // Script should run on raspberryPI
-// Double Check the server IP, USB ports
+// Double Check the server IP, USB ports before you compile and run the script
 
 
 //updated on 26th July 2017
