@@ -1,6 +1,8 @@
 # Water Quality Data Reader
-This C script read data from YSI EXO2 multiparameter sonde with EXO Modbus Signal Output Adapter (SOA)
-Set up rasperyPI to tranfer data with SOA using modbus
+This C script read data from YSI EXO2 multiparameter sonde with EXO Modbus Signal Output Adapter (SOA). The data will be locally logged in CSV files and send to influxdb through http. Make sure the influxdb is running in the network and accessible.
+Set up rasperyPI to tranfer data with SOA using modbus.
+
+config.txt is a csv file contains the modbus registers in the SOA with there corresponding parameter names, see https://www.ysi.com/File%20Library/Documents/Guides/599825_Modbus-Quickstart-Guide.pdf for more details on the SOA.
 
 # Pre-request
 The sensor and SOA communicate with the raspberry PI using Modbus protocal, so you need libmodbus 3.1.4 to compile the script.
@@ -35,3 +37,10 @@ You can directly run the script or use nohup or tmux to run it so it will not be
 `./waterquality`  or
 `nohup ./waterquality`
 You may need root to run
+
+
+
+
+By Yiheng Chen
+University of Bristol
+12/07/2018
